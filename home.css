@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, #f5933d, rgb(247, 246, 246));
+}
+
+header{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.home span{
+    font-size: 13px;
+}
+
+.home h2{
+    font-size: 18px;
+}
+
+.perfil{
+    background: url(./img/PERFIL.png);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.pesquisa{
+    height: 40px;
+    display: flex;
+}
+
+.pesquisa .text{
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+
+
+.pesquisa .search{
+    width: 50px;
+    background: url(./img/lupa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: none;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+main .categoria{
+    padding: 0px 15px;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.icons button{
+    display: flex;
+    padding: 10px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.titulo{
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.pizzas{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.precoPizza{
+    background-color: #F01212;
+    font-size: 13px;
+    color: #fff;
+    padding: 2px 3px;
+    border-radius: 7px;
+    place-content: center;
+    width: fit-content;
+}
+
+.nomePizza{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 80%;
+    font-size: 80%;
+    padding: 3px;
+    border-bottom-left-radius: 16px;
+}
+.pizza{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+}
+.pizza:nth-child(1){
+    background: url(./img/pizza1.png);
+}
+
+.pizza:nth-child(2){
+    background: url(./img/pizza2.png);
+}
+
+
+.pizzas2{
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pizza01{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+    width: 160px;
+    height: 100px;
+    background: url(./img/pizza4.png);
+}
+.pizza02{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+    width: 150px;
+    height: 100px;
+    background: url(./img/pizza5.png);
+}
+
+
+
+.container{
+    height: 80px;
+    width: 330px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.info{
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+.preco{
+    background-color: #F01212;
+    font-size: 13px;
+    color: #fff;
+    justify-content: center;
+    padding: 2px 3px;
+    border-radius: 7px;
+    height: 20px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100vw;
+    z-index: 2;
+    background-color: #f5933d;
+    color: #fff;
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-pizza{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    text-align: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}

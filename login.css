@@ -1,0 +1,113 @@
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Tela\ Inicial\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    height: 150px; 
+    padding: 5%;
+}
+
+.nome{
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: -125px;
+    margin-left: 130px;   
+}
+
+main{
+    padding:5px;
+}
+
+
+.informacao h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.informacao p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white; 
+}
+
+.login input{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;  
+    outline: none; 
+}
+
+::placeholder{
+    color: white;
+}
+
+.login{
+    padding: 60px 15px;
+}
+
+.login #email{
+    border-bottom: 1px solid white;
+}
+
+.login #senha{
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+
+.botao{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(242, 119, 6);
+    padding: 15px 100px;
+    justify-content: center;
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    flex-direction: column;
+
+}
+
+.entrar p{
+    display: flex;
+    justify-content: end;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    
+}
+
+
+.criar-conta{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
